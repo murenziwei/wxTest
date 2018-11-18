@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "near-by":"plugin://nearBy/group"
+  }
+}

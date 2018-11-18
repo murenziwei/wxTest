@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/near/near",
+    "pages/citys/citys",
+    "pages/custom/custom"
+  ],
+  "plugins": {
+    "chooseCity": {
+      "version": "1.0.0",
+      "provider": "wxcdf8cca1bde64773"
+    },
+    "nearBy": {
+      "version": "1.0.2",
+      "provider": "wxd21053e30be9caa7"
+    }
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#1afa29",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/near/near",
+        "iconPath": "img/weather.png",
+        "text": "附近",
+        "selectedIconPath": "img/weather.png"
+      },
+      {
+        "pagePath": "pages/citys/citys",
+        "iconPath": "img/book.png",
+        "text": "城市选择",
+        "selectedIconPath": "img/book.png"
+      },
+      {
+        "pagePath": "pages/custom/custom",
+        "iconPath": "img/book.png",
+        "text": "自定义组件",
+        "selectedIconPath": "img/book.png"
+      }
+    ]
+  }
+}
